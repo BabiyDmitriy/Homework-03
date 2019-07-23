@@ -1,0 +1,162 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Playfair Display","Ubuntu Light",sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+} 
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* navigation */
+
+.menu{
+    margin: 0 auto ;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu-navigation{
+    margin: 0px;
+    padding: 80px 0;
+}
+.navigation li{
+    display: inline-block;
+    margin-right: 120px;
+    vertical-align: middle;
+}
+
+.menu li:last-child{
+    margin-right: 0px;
+}
+
+.navigation{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navigation a {
+    display: block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+    text-align: center;
+}
+
+.navigation a:hover,
+.navigation a :focus{
+    color: #03a9f4;
+}
+
+/* post */
+.post{
+    margin-bottom: 98px;
+}
+.post-list{
+    list-style:none ;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+}
+
+.post-list-item{
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 134px;
+    padding: 0 ;
+    text-align: left; 
+}
+
+.post-list-item:nth-child(2n){
+    margin-right: 0px;
+}
+
+.post-list-item:nth-last-child(-n+2){
+    margin-bottom: 0px;
+}
+
+.post-list-item p{
+    font-size: 14px;
+}
+
+.post-list-about p{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .post-list-image */
+
+.image-name{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.post-list-title{
+    font-size: 30px;
+    line-height: 36px;
+    color: #626262;
+}
+
+/* button */
+
+.button {
+    display: block; 
+    margin: 38px 0;
+    margin-left: 366px;
+    padding: 20 34;
+    border: 1px solid  rgb(98, 98, 98);
+    background: #ffffff;
+    width: 164px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
