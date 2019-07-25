@@ -76,7 +76,7 @@ img{
 
 /* post */
 .post{
-    padding-bottom: 98px;
+    padding-bottom: 70px;
 }
 .post-list{
     list-style:none ;
@@ -141,14 +141,14 @@ img{
     display: block; 
     margin: 38px 0;
     margin-left: 366px;
-    padding: 20 34;
+    padding: 22 34;
     border: 1px solid  rgb(98, 98, 98);
     background: #ffffff;
     width: 164px;
     height: 60px;
     font-size: 20px;
     line-height: 24px;
-    /* margin-bottom: 0px; */
+    margin-bottom: 0px;
 }
 
 
