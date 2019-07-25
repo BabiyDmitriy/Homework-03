@@ -76,7 +76,7 @@ img{
 
 /* post */
 .post{
-    margin-bottom: 98px;
+    padding-bottom: 98px;
 }
 .post-list{
     list-style:none ;
