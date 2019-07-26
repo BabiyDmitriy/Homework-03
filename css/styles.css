@@ -107,6 +107,10 @@ img{
     font-size: 14px;
 }
 
+.post-list-about{
+    margin: 0px;
+}
+
 .post-list-about p{
     margin: 0px;
     padding: 0px;
@@ -139,7 +143,7 @@ img{
 
 .button {
     display: block; 
-    margin: 38px 0;
+    /* margin: 38px 0; */
     margin-left: 366px;
     padding: 22 34;
     border: 1px solid  rgb(98, 98, 98);
